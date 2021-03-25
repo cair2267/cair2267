@@ -82,7 +82,7 @@ public class Task implements Serializable, Cloneable {
         return end;
     }
     public int getRepeatInterval(){
-        return interval > 0 ? interval : 0;
+        return Math.max(interval, 0);
     }
 
     public void setTime(Date start, Date end, int interval){

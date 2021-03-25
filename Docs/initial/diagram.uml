@@ -40,8 +40,10 @@
       <point x="0.0" y="0.0" />
     </edge>
   </edges>
-  <settings layout="Balloon" zoom="0.9643031784841075" x="538.5452378397822" y="292.6280443243737" />
-  <SelectedNodes />
+  <settings layout="Balloon" zoom="0.6643031784841074" x="561.7116540625677" y="894.5922160354232" />
+  <SelectedNodes>
+    <node>tasks.model.Task</node>
+  </SelectedNodes>
   <Categories>
     <Category>Fields</Category>
     <Category>Constructors</Category>
