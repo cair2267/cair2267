@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="244.72432650871383" y="669.7728599550196">tasks.model.TaskList</node>
+    <node x="292.0" y="1631.785955023266">tasks.model.TasksOperations</node>
+    <node x="1552.3752341608476" y="0.0">tasks.services.DateService</node>
+    <node x="1014.3752341608476" y="0.0">tasks.services.TaskIO</node>
+    <node x="0.0" y="0.0">tasks.model.LinkedTaskList.Node</node>
+    <node x="270.1388311839401" y="967.8285461321476">tasks.model.ArrayTaskList</node>
+    <node x="269.589745060287" y="1447.785955023266">tasks.model.ArrayTaskList.ArrayTaskListIterator</node>
+    <node x="489.37523416084764" y="79.16006674675748">tasks.model.LinkedTaskList.LinkedTaskListIterator</node>
+    <node x="734.3752341608476" y="0.0">tasks.model.Task</node>
+    <node x="653.0" y="1631.785955023266">tasks.controller</node>
+    <node x="1312.3752341608476" y="0.0">tasks.view.Main</node>
+    <node x="0.0" y="1631.785955023266">tasks.services.TasksService</node>
+    <node x="250.82266854259" y="236.23836912729882">tasks.model.LinkedTaskList</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="tasks.model.LinkedTaskList.LinkedTaskListIterator" target="tasks.model.LinkedTaskList">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="tasks.model.ArrayTaskList" target="tasks.model.TaskList">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="tasks.model.LinkedTaskList.Node" target="tasks.model.LinkedTaskList">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="tasks.model.LinkedTaskList" target="tasks.model.TaskList">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="tasks.model.ArrayTaskList.ArrayTaskListIterator" target="tasks.model.ArrayTaskList">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Balloon" zoom="0.9643031784841075" x="538.5452378397822" y="292.6280443243737" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
