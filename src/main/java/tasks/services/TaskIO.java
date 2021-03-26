@@ -22,64 +22,48 @@ public class TaskIO {
 
     private static final Logger log = Logger.getLogger(TaskIO.class.getName());
     public static void write(TaskList tasks, OutputStream out) throws IOException {
-        DataOutputStream dataOutputStream = new DataOutputStream(out);
-        try {
+        try (DataOutputStream dataOutputStream = new DataOutputStream(out)) {
             dataOutputStream.writeInt(tasks.size());
-            for (Task t : tasks){
+            for (Task t : tasks) {
                 dataOutputStream.writeInt(t.getTitle().length());
                 dataOutputStream.writeUTF(t.getTitle());
                 dataOutputStream.writeBoolean(t.isActive());
                 dataOutputStream.writeInt(t.getRepeatInterval());
-                if (t.isRepeated()){
+                if (t.isRepeated()) {
                     dataOutputStream.writeLong(t.getStartTime().getTime());
                     dataOutputStream.writeLong(t.getEndTime().getTime());
-                }
-                else {
+                } else {
                     dataOutputStream.writeLong(t.getTime().getTime());
                 }
             }
         }
-        finally {
-            dataOutputStream.close();
-        }
     }
     public static void read(TaskList tasks, InputStream in)throws IOException {
-        DataInputStream dataInputStream = new DataInputStream(in);
-        try {
+        try (DataInputStream dataInputStream = new DataInputStream(in)) {
             int listLength = dataInputStream.readInt();
-            for (int i = 0; i < listLength; i++){
+            for (int i = 0; i < listLength; i++) {
                 int titleLength = dataInputStream.readInt();
                 String title = dataInputStream.readUTF();
                 boolean isActive = dataInputStream.readBoolean();
                 int interval = dataInputStream.readInt();
                 Date startTime = new Date(dataInputStream.readLong());
                 Task taskToAdd;
-                if (interval > 0){
+                if (interval > 0) {
                     Date endTime = new Date(dataInputStream.readLong());
                     taskToAdd = new Task(title, startTime, endTime, interval);
-                }
-                else {
+                } else {
                     taskToAdd = new Task(title, startTime);
                 }
                 taskToAdd.setActive(isActive);
                 tasks.add(taskToAdd);
             }
         }
-        finally {
-            dataInputStream.close();
-        }
     }
     public static void writeBinary(TaskList tasks, File file)throws IOException{
-        FileOutputStream fos = null;
-        try {
-            fos = new FileOutputStream(file);
-            write(tasks,fos);
-        }
-        catch (IOException e){
+        try (FileOutputStream fos = new FileOutputStream(file)) {
+            write(tasks, fos);
+        } catch (IOException e) {
             log.error("IO exception reading or writing file");
-        }
-        finally {
-            fos.close();
         }
     }
 

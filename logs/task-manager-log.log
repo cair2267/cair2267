@@ -20,3 +20,15 @@
 2021-03-25 18:29:20 INFO  Controller:75 - Main controller initializing
 2021-03-25 18:29:24 INFO  TaskInfoController:26 - task info window initializing
 2021-03-25 18:29:24 ERROR Controller:128 - error loading task-info.fxml
+2021-03-26 14:40:12 INFO  Main:38 - saved data reading
+2021-03-26 14:40:12 INFO  Main:43 - application start
+2021-03-26 14:40:13 INFO  Controller:75 - Main controller initializing
+2021-03-26 15:01:12 INFO  Main:38 - saved data reading
+2021-03-26 15:01:12 INFO  Main:43 - application start
+2021-03-26 15:01:12 INFO  Controller:75 - Main controller initializing
+2021-03-26 15:20:59 INFO  Main:38 - saved data reading
+2021-03-26 15:20:59 INFO  Main:43 - application start
+2021-03-26 15:20:59 INFO  Controller:75 - Main controller initializing
+2021-03-26 15:21:49 INFO  Main:38 - saved data reading
+2021-03-26 15:21:49 INFO  Main:43 - application start
+2021-03-26 15:21:49 INFO  Controller:75 - Main controller initializing

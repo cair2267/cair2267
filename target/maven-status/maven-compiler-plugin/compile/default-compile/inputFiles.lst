@@ -3,7 +3,9 @@ E:\Uni\Prel2\VVSS\01_Tasks\01_Tasks\src\main\java\tasks\controller\NewEditContro
 E:\Uni\Prel2\VVSS\01_Tasks\01_Tasks\src\main\java\tasks\services\TaskIO.java
 E:\Uni\Prel2\VVSS\01_Tasks\01_Tasks\src\main\java\tasks\services\DateService.java
 E:\Uni\Prel2\VVSS\01_Tasks\01_Tasks\src\main\java\tasks\model\LinkedTaskList.java
+E:\Uni\Prel2\VVSS\01_Tasks\01_Tasks\src\main\java\tasks\model\validator\Validator.java
 E:\Uni\Prel2\VVSS\01_Tasks\01_Tasks\src\main\java\tasks\model\TasksOperations.java
+E:\Uni\Prel2\VVSS\01_Tasks\01_Tasks\src\main\java\tasks\model\validator\ValidationException.java
 E:\Uni\Prel2\VVSS\01_Tasks\01_Tasks\src\main\java\tasks\controller\TaskInfoController.java
 E:\Uni\Prel2\VVSS\01_Tasks\01_Tasks\src\main\java\tasks\controller\Notificator.java
 E:\Uni\Prel2\VVSS\01_Tasks\01_Tasks\src\main\java\tasks\model\ArrayTaskList.java
