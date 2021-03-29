@@ -32,3 +32,61 @@
 2021-03-26 15:21:49 INFO  Main:38 - saved data reading
 2021-03-26 15:21:49 INFO  Main:43 - application start
 2021-03-26 15:21:49 INFO  Controller:75 - Main controller initializing
+2021-03-26 15:26:34 INFO  Main:38 - saved data reading
+2021-03-26 15:26:34 INFO  Main:43 - application start
+2021-03-26 15:26:34 INFO  Controller:75 - Main controller initializing
+2021-03-26 15:26:37 INFO  NewEditController:91 - new/edit window initializing
+2021-03-26 15:26:40 INFO  NewEditController:91 - new/edit window initializing
+2021-03-26 15:26:45 INFO  TaskInfoController:26 - task info window initializing
+2021-03-26 15:26:45 ERROR Controller:128 - error loading task-info.fxml
+2021-03-26 15:26:48 INFO  NewEditController:91 - new/edit window initializing
+2021-03-26 15:26:56 INFO  NewEditController:91 - new/edit window initializing
+2021-03-26 15:27:03 INFO  TaskInfoController:26 - task info window initializing
+2021-03-29 15:34:02 INFO  Main:38 - saved data reading
+2021-03-29 15:34:02 INFO  Main:43 - application start
+2021-03-29 15:34:03 INFO  Controller:75 - Main controller initializing
+2021-03-29 15:34:12 INFO  NewEditController:91 - new/edit window initializing
+2021-03-29 15:46:56 INFO  Main:38 - saved data reading
+2021-03-29 15:46:56 INFO  Main:43 - application start
+2021-03-29 15:46:57 INFO  Controller:75 - Main controller initializing
+2021-03-29 15:47:02 INFO  NewEditController:91 - new/edit window initializing
+2021-03-29 15:47:42 INFO  NewEditController:91 - new/edit window initializing
+2021-03-29 15:48:12 INFO  NewEditController:91 - new/edit window initializing
+2021-03-29 15:48:22 INFO  NewEditController:91 - new/edit window initializing
+2021-03-29 16:58:44 INFO  Main:38 - saved data reading
+2021-03-29 16:58:44 INFO  Main:43 - application start
+2021-03-29 16:58:45 INFO  Controller:75 - Main controller initializing
+2021-03-29 16:58:54 INFO  NewEditController:91 - new/edit window initializing
+2021-03-29 17:29:57 INFO  Main:38 - saved data reading
+2021-03-29 17:29:57 INFO  Main:43 - application start
+2021-03-29 17:29:57 INFO  Controller:75 - Main controller initializing
+2021-03-29 17:29:59 INFO  NewEditController:91 - new/edit window initializing
+2021-03-29 17:30:13 INFO  NewEditController:91 - new/edit window initializing
+2021-03-29 17:30:31 INFO  NewEditController:91 - new/edit window initializing
+2021-03-29 17:30:59 INFO  NewEditController:91 - new/edit window initializing
+2021-03-29 17:31:09 INFO  NewEditController:91 - new/edit window initializing
+2021-03-29 17:31:28 INFO  NewEditController:91 - new/edit window initializing
+2021-03-29 17:31:41 INFO  NewEditController:91 - new/edit window initializing
+2021-03-29 17:31:43 INFO  NewEditController:91 - new/edit window initializing
+2021-03-29 17:31:57 INFO  NewEditController:91 - new/edit window initializing
+2021-03-29 17:32:00 INFO  NewEditController:91 - new/edit window initializing
+2021-03-29 17:32:03 INFO  NewEditController:91 - new/edit window initializing
+2021-03-29 19:18:17 ERROR Task:41 - interval < than 1
+2021-03-29 19:20:17 ERROR Task:41 - interval < than 1
+2021-03-29 19:21:13 ERROR Task:41 - interval < than 1
+2021-03-29 19:32:18 ERROR Task:41 - interval < than 1
+2021-03-29 19:34:47 ERROR Task:41 - interval < than 1
+2021-03-29 19:39:12 ERROR Task:45 - interval < than 1
+2021-03-29 19:39:12 ERROR Task:37 - title null
+2021-03-29 19:43:52 ERROR Task:45 - interval < than 1
+2021-03-29 19:43:52 ERROR Task:45 - interval < than 1
+2021-03-29 19:43:52 ERROR Task:37 - title null
+2021-03-29 20:33:10 ERROR Task:45 - interval < than 1
+2021-03-29 20:33:10 ERROR Task:45 - interval < than 1
+2021-03-29 20:33:10 ERROR Task:37 - title null
+2021-03-29 20:37:57 ERROR Task:45 - interval < than 1
+2021-03-29 20:37:57 ERROR Task:45 - interval < than 1
+2021-03-29 20:37:57 ERROR Task:37 - title null
+2021-03-29 20:38:21 ERROR Task:45 - interval < than 1
+2021-03-29 20:38:21 ERROR Task:45 - interval < than 1
+2021-03-29 20:38:21 ERROR Task:37 - title null

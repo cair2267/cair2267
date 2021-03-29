@@ -33,6 +33,10 @@ public class Task implements Serializable, Cloneable {
         this.end = time;
     }
     public Task(String title, Date start, Date end, int interval){
+        if(title == null || title==""){
+            log.error("title null");
+            throw new IllegalArgumentException("title cannot be null");
+        }
         if (start.getTime() < 0 || end.getTime() < 0) {
             log.error("time below bound");
             throw new IllegalArgumentException("Time cannot be negative");

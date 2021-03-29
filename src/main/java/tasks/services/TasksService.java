@@ -53,4 +53,9 @@ public class TasksService {
 
         return filtered;
     }
+
+    public void addTask(String title,Date start, Date end, int interval){
+        Task t = new Task(title,start,end,interval);
+        tasks.add(t);
+    }
 }

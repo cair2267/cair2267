@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<requirement-specification>
+<req_spec title="cair2267_ReqSpec"  doc_id="cair2267_ReqSpec"  >
+	<revision><![CDATA[2]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[2]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[<p><strong>01. Tasks</strong></p>
+
+<p><br />
+Aplicatia Java pentru Desktop gestioneaza task-urile unei persoane active. Informatiile sunt preluate dintr-un fisier binar sau text. Fisierul cu datele contine pe fiecare linie cate un task de forma:<br />
+title, time, start, end, interval, active (String, DateTime, DateTime, DateTime, DateTime, Boolean)</p>
+
+<p><br />
+La pornirea aplicatiei se deschide o fereastra cu un tabel in care sunt afisate taskurile existente si o interfata care ofera functionalitatile de mai jos:</p>
+
+<p><br />
+<strong>F01.</strong> Adaugarea unui task nou in fisier cu detaliile: descrierea, data si ora de inceput, data si ora de sfarsit. Daca task-ul este repetitiv, atunci se indica intervalul de timp la care se va repeta, dat ca numar de ore si minute. Task-ul poate fi activ sau nu.</p>
+
+<p><br />
+<strong>F02.</strong> Afisarea taskurilor in tabel planificate intr-o anumita perioada de timp, precizata ca data si ora de inceput si data si ora de sfarsit prin campuri speciale.</p>
+
+<p><br />
+<strong>F03.</strong> Afisarea informatiilor referitoare la un anumit task printr-un buton.</p>
+
+<p><br />
+<strong>F04.</strong> Modificarea detaliilor unui task.&nbsp;</p>
+
+<p><br />
+<strong>F05.</strong> Stergerea unui task.</p>]]></scope>
+			<requirement>
+		<docid><![CDATA[cair2267_F01]]></docid>
+		<title><![CDATA[Adaugarea unui Task nou]]></title>
+		<version>1</version>
+		<revision>2</revision>
+		<node_order>1</node_order>
+		<description><![CDATA[<p><strong>F01.</strong>Adaugarea unui task nou in fisier cu detaliile: descrierea, data si ora de inceput, data si ora de sfarsit. Daca task-ul este repetitiv, atunci se indica intervalul de timp la care se va repeta, dat ca numar de ore si minute. Task-ul poate fi activ sau nu.</p>]]></description>
+		<status><![CDATA[I]]></status>
+		<type><![CDATA[2]]></type>
+		<expected_coverage><![CDATA[2]]></expected_coverage>
+		
+	</requirement>
+</req_spec>
+</requirement-specification>
