@@ -12,7 +12,7 @@
 <p style="text-align: center;"><img alt="TestLink logo" title="configure using $tlCfg->document_generator->company_logo"  width=231 height=56 src="http://localhost/testlink/gui/themes/default/images/tl-logo-transparent-25.png" /></p></div>
 <div class="doc_title"><p>Test Specification</p></div>
 <div class="doc_title" style="text-align:left;margin: auto;"><p>Test Project: PrjPrel<br/>Test Suite: PrjPrel - cair2267_BBT</p></div>
-<div class="summary"><p id="printedby">Printed by TestLink on 29/03/2021</p></div>
+<div class="summary"><p id="printedby">Printed by TestLink on 30/03/2021</p></div>
 <div class="pagefooter" id="copyright">2012 &copy; TestLink Community</div>
 <h1 class="general" style="page-break-before: always">Table Of Contents</h1><div class="toc"><p style="padding-left: 20px;"><b><a href="#toc_1">1.cair2267_BBT</a></b></p>
 <p style="padding-left: 45px;"><a href="#toc_tc3020">Prel-6: F01_AdaugareTask_ECP_Valid</a></p><p style="padding-left: 45px;"><a href="#toc_tc3022">Prel-7: F01_AdaugareTask_ECP_NonValid</a></p><p style="padding-left: 45px;"><a href="#toc_tc3024">Prel-8: F01_AdaugareTask_BVA_Valid</a></p><p style="padding-left: 45px;"><a href="#toc_tc3026">Prel-9: F01_AdaugareTask_BVA_NonValid</a></p></div><h1 class="doclevel" >Scope</h1>

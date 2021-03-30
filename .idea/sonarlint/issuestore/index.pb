@@ -37,3 +37,11 @@ Rtarget/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.
 Ptarget/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst,3\d\3da01db98b88a8057c03354880f06dba49d3e795
 ^
 .src/main/java/tasks/controller/Controller.java,e\c\ecf3c385b36af4d118754ee8d9878c48978fcaa9
+X
+(Docs/Lab02/cair2267_ReqSpec-req-spec.xml,f\7\f7431f84aa72b10e067adc72e4cbbdc3952aca6e
+i
+9src/test/java/tasks/controller/NewEditControllerTest.java,3\7\37c5227067038b24989aac026b3d5deb3328aa53
+W
+'src/test/java/tasks/model/TaskTest.java,3\1\31324894a484d06adcd87a923fb98e2c49cb815e
+b
+2src/test/java/tasks/services/TasksServiceTest.java,1\e\1ed2e4afe6f0e30a24669299239d591463d36916

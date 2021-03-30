@@ -38,11 +38,13 @@ import static org.junit.jupiter.api.Assertions.fail;
     @Test
     @Order(1)
     @Tag("Valid")
+    @Timeout(100)
     @DisplayName("ECP-Valid-Tests")
     void addTask() {
         tasksService.addTask("seminar",start,end,1);
         tasksService.addTask("laborator",start,end,15);
         assert tasks.size() == 2;
+
     }
 
     @Test
@@ -56,7 +58,7 @@ import static org.junit.jupiter.api.Assertions.fail;
     @Test
     @Order(3)
     @DisplayName("ECP-Non-Valid-Tests")
-    void exceptionTriggered(){
+    void addTaskInavalid(){
         assertThrows(IllegalArgumentException.class, () -> {
             tasksService.addTask("3",start,end,0);
     });
@@ -67,13 +69,33 @@ import static org.junit.jupiter.api.Assertions.fail;
 
     @ParameterizedTest
     @ValueSource(ints = { 1, Integer.MAX_VALUE })
-    void intervalTest(int interval){
+    @DisplayName("BVA-Valid-Tests-interval")
+    void intervalTest_valid(int interval){
         tasksService.addTask("a",start,end,interval);
     }
 
     @ParameterizedTest
-    @ValueSource(strings = { "a","aaa" })
-    void titleTest(String title){
+    @ValueSource(strings = { "a","aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" })
+    @DisplayName("BVA-Valid-Tests-title")
+    void titleTest_valid(String title){
         tasksService.addTask(title,start,end,1);
+    }
+
+    @ParameterizedTest
+    @ValueSource(ints = { 0, Integer.MAX_VALUE+1 })
+    @DisplayName("BVA-NonValid-Tests-interval")
+    void intervalTest_nonValid(int interval){
+        assertThrows(IllegalArgumentException.class, () -> {
+            tasksService.addTask("3",start,end,interval);
+        });
+    }
+
+    @ParameterizedTest
+    @ValueSource(strings = { "" })
+    @DisplayName("BVA-NonValid-Tests-title")
+    void titleTest_nonValid(String title){
+        assertThrows(IllegalArgumentException.class, () -> {
+            tasksService.addTask(title,start,end,2);
+        });
     }
 }

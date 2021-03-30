@@ -90,3 +90,18 @@
 2021-03-29 20:38:21 ERROR Task:45 - interval < than 1
 2021-03-29 20:38:21 ERROR Task:45 - interval < than 1
 2021-03-29 20:38:21 ERROR Task:37 - title null
+2021-03-29 20:49:16 INFO  Main:38 - saved data reading
+2021-03-29 20:49:16 INFO  Main:43 - application start
+2021-03-29 20:49:17 INFO  Controller:75 - Main controller initializing
+2021-03-29 20:49:25 INFO  NewEditController:91 - new/edit window initializing
+2021-03-30 12:44:15 ERROR Task:45 - interval < than 1
+2021-03-30 12:44:15 ERROR Task:37 - title null
+2021-03-30 12:52:05 ERROR Task:45 - interval < than 1
+2021-03-30 12:52:05 ERROR Task:45 - interval < than 1
+2021-03-30 12:52:05 ERROR Task:45 - interval < than 1
+2021-03-30 12:52:05 ERROR Task:37 - title null
+2021-03-30 12:52:43 ERROR Task:37 - title null
+2021-03-30 12:52:43 ERROR Task:45 - interval < than 1
+2021-03-30 12:52:43 ERROR Task:45 - interval < than 1
+2021-03-30 12:52:43 ERROR Task:45 - interval < than 1
+2021-03-30 12:52:43 ERROR Task:37 - title null
