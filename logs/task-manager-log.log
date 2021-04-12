@@ -105,3 +105,53 @@
 2021-03-30 12:52:43 ERROR Task:45 - interval < than 1
 2021-03-30 12:52:43 ERROR Task:45 - interval < than 1
 2021-03-30 12:52:43 ERROR Task:37 - title null
+2021-03-30 13:48:35 INFO  Main:38 - saved data reading
+2021-03-30 13:48:35 INFO  Main:43 - application start
+2021-03-30 13:48:35 INFO  Controller:75 - Main controller initializing
+2021-03-30 13:52:18 ERROR Task:37 - title null
+2021-03-30 13:52:18 ERROR Task:45 - interval < than 1
+2021-03-30 13:52:18 ERROR Task:45 - interval < than 1
+2021-03-30 13:52:18 ERROR Task:45 - interval < than 1
+2021-03-30 13:52:18 ERROR Task:37 - title null
+2021-04-12 23:00:17 INFO  Main:38 - saved data reading
+2021-04-12 23:00:18 INFO  Main:43 - application start
+2021-04-12 23:00:18 INFO  Controller:75 - Main controller initializing
+2021-04-12 23:01:44 INFO  NewEditController:91 - new/edit window initializing
+2021-04-12 23:02:02 INFO  NewEditController:91 - new/edit window initializing
+2021-04-12 23:03:24 INFO  NewEditController:91 - new/edit window initializing
+2021-04-12 23:03:26 INFO  NewEditController:91 - new/edit window initializing
+2021-04-12 23:03:29 INFO  NewEditController:91 - new/edit window initializing
+2021-04-12 23:03:34 INFO  NewEditController:91 - new/edit window initializing
+2021-04-12 23:31:44 INFO  Main:38 - saved data reading
+2021-04-12 23:31:44 INFO  Main:43 - application start
+2021-04-12 23:31:44 INFO  Controller:75 - Main controller initializing
+2021-04-12 23:31:48 INFO  NewEditController:91 - new/edit window initializing
+2021-04-12 23:32:03 INFO  NewEditController:91 - new/edit window initializing
+2021-04-12 23:32:33 INFO  NewEditController:91 - new/edit window initializing
+2021-04-12 23:32:41 INFO  NewEditController:91 - new/edit window initializing
+2021-04-12 23:32:52 INFO  NewEditController:91 - new/edit window initializing
+2021-04-12 23:33:03 INFO  NewEditController:91 - new/edit window initializing
+2021-04-12 23:33:05 INFO  NewEditController:91 - new/edit window initializing
+2021-04-12 23:33:08 INFO  NewEditController:91 - new/edit window initializing
+2021-04-12 23:33:13 INFO  NewEditController:91 - new/edit window initializing
+2021-04-12 23:33:17 INFO  NewEditController:91 - new/edit window initializing
+2021-04-12 23:35:36 INFO  NewEditController:91 - new/edit window initializing
+2021-04-12 23:35:45 INFO  TaskInfoController:26 - task info window initializing
+2021-04-12 23:35:46 INFO  NewEditController:91 - new/edit window initializing
+2021-04-12 23:36:04 INFO  NewEditController:91 - new/edit window initializing
+2021-04-12 23:36:10 INFO  NewEditController:91 - new/edit window initializing
+2021-04-12 23:36:15 INFO  NewEditController:91 - new/edit window initializing
+2021-04-12 23:36:59 INFO  NewEditController:91 - new/edit window initializing
+2021-04-12 23:37:04 INFO  NewEditController:91 - new/edit window initializing
+2021-04-12 23:37:08 INFO  NewEditController:91 - new/edit window initializing
+2021-04-12 23:37:11 INFO  NewEditController:91 - new/edit window initializing
+2021-04-12 23:37:14 INFO  NewEditController:91 - new/edit window initializing
+2021-04-12 23:37:30 ERROR Task:45 - interval < than 1
+2021-04-12 23:37:30 ERROR Task:45 - interval < than 1
+2021-04-12 23:37:30 ERROR Task:45 - interval < than 1
+2021-04-12 23:37:30 ERROR Task:45 - interval < than 1
+2021-04-12 23:37:30 ERROR Task:45 - interval < than 1
+2021-04-12 23:44:11 INFO  NewEditController:91 - new/edit window initializing
+2021-04-12 23:44:19 INFO  TaskInfoController:26 - task info window initializing
+2021-04-12 23:44:21 INFO  NewEditController:91 - new/edit window initializing
+2021-04-12 23:44:28 INFO  NewEditController:91 - new/edit window initializing

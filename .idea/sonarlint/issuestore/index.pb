@@ -45,3 +45,5 @@ W
 'src/test/java/tasks/model/TaskTest.java,3\1\31324894a484d06adcd87a923fb98e2c49cb815e
 b
 2src/test/java/tasks/services/TasksServiceTest.java,1\e\1ed2e4afe6f0e30a24669299239d591463d36916
+M
+target/classes/data/tasks.txt,c\5\c5b8a5634bb7d26cb2be56c8d5fbd61fb29e5bd4

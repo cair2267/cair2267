@@ -70,6 +70,7 @@ import static org.junit.jupiter.api.Assertions.fail;
     @ParameterizedTest
     @ValueSource(ints = { 1, Integer.MAX_VALUE })
     @DisplayName("BVA-Valid-Tests-interval")
+    @Tag("Valid")
     void intervalTest_valid(int interval){
         tasksService.addTask("a",start,end,interval);
     }
@@ -77,6 +78,7 @@ import static org.junit.jupiter.api.Assertions.fail;
     @ParameterizedTest
     @ValueSource(strings = { "a","aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" })
     @DisplayName("BVA-Valid-Tests-title")
+    @Tag("Valid")
     void titleTest_valid(String title){
         tasksService.addTask(title,start,end,1);
     }

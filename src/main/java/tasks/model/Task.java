@@ -117,7 +117,7 @@ public class Task implements Serializable, Cloneable {
                 }
             }
         }
-        if (!isRepeated() && current.before(time) && isActive()){
+        if (!isRepeated() && (current.before(time) || current.equals(time)) && isActive()){
             return time;
         }
         return null;
