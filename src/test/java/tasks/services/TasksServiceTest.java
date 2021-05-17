@@ -3,6 +3,7 @@ package tasks.services;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
+import org.mockito.Mock;
 import tasks.model.ArrayTaskList;
 import tasks.model.Task;
 
@@ -20,6 +21,9 @@ import static org.junit.jupiter.api.Assertions.fail;
     private ArrayTaskList tasks;
     private Date start, end;
     private SimpleDateFormat sdf;
+
+    @Mock
+    Task t;
 
     @BeforeEach
     void setUp() {
@@ -99,5 +103,21 @@ import static org.junit.jupiter.api.Assertions.fail;
         assertThrows(IllegalArgumentException.class, () -> {
             tasksService.addTask(title,start,end,2);
         });
+    }
+
+    @Test
+    void add_valid(){
+        Task t = new Task("laborator",start,end,15);
+        tasksService.addTask(t);
+        assert tasksService.getAllTasks().get(0).getTitle().equals("laborator");
+
+    }
+
+    @Test
+    void size(){
+        Task t = new Task("laborator",start,end,15);
+        tasksService.addTask(t);
+        assert tasksService.size() == 1;
+
     }
 }

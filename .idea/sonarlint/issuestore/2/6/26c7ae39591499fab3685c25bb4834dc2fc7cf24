@@ -1,0 +1,35 @@
+
+U
+java:S1118":Add a private constructor to hide the implicit public one.(Ğœê†úÿÿÿÿ
+‚
+java:S1192B"eDefine a constant instead of duplicating this literal "IO exception reading or writing file" 4 times.(ÌÔü¦8¢‹½ô†/
+L
+java:S2093l"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8¡Ïëô†/
+;
+java:S1659£"Declare "j" on a separate line.(Ù é®şÿÿÿÿ
+A
+java:S1659–"%Declare "minutes" on a separate line.(ÚåÏ¾üÿÿÿÿ
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(İ–ë“ûÿÿÿÿ
+R
+java:S1481-"0Remove this unused "titleLength" local variable.(ìôå‰ÿÿÿÿÿ8¥Ò¼ô†/
+?
+java:S1659–"#Declare "hours" on a separate line.(ÚåÏ¾üÿÿÿÿ
+L
+java:S2093H"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8«íô†/
+n
+java:S3776•"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(œÂÁñøÿÿÿÿ
+L
+java:S2093y"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8îÆæô†/
+H
+java:S2885"-Make "simpleDateFormat" an instance variable.(ËÒÌıøÿÿÿÿ
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ôâ»Ô
+W	java:S125©"<This block of commented-out lines of code should be removed.(À›¸Öûÿÿÿÿ
+=
+java:S1659Ä"!Declare "end" on a separate line.(ÍôÁÑıÿÿÿÿ
+6
+java:S1659„"Declare "j" on a separate line.(±é…
+c
+java:S2259P"AA "NullPointerException" could be thrown; "fis" is nullable here.(ß¶­†ÿÿÿÿÿ8«íô†/
+n	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¼ÌÔ;
+A
+java:S1659–"%Declare "seconds" on a separate line.(ÚåÏ¾üÿÿÿÿ

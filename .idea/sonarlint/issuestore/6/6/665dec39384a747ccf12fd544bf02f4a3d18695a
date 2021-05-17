@@ -1,7 +1,7 @@
 
-t
-java:S3776g"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(Î¥­üÿÿÿÿ8§Ëøó†/
-G
-java:S2157"%Add a "clone()" method to this class.(¨—ğûøÿÿÿÿ8ÔÎõ†/
 =
 java:S2885" Make "sdf" an instance variable.(¸‰ˆí8§Ëøó†/
+G
+java:S2157"%Add a "clone()" method to this class.(¨—ğûøÿÿÿÿ8ÔÎõ†/
+t
+java:S3776g"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(Î¥­üÿÿÿÿ8§Ëøó†/

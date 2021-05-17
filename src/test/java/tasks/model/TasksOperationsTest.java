@@ -57,7 +57,7 @@ import static org.junit.jupiter.api.Assertions.fail;
 
     @Test
     @Order(1)
-    @DisplayName("TC01")
+    @DisplayName("TC01-null list")
     void incoming() {
         tasksList = FXCollections.observableArrayList(tasksArray.getAll());
         TasksOperations tOps = new TasksOperations(tasksList);
@@ -67,7 +67,7 @@ import static org.junit.jupiter.api.Assertions.fail;
 
     @Test
     @Order(2)
-    @DisplayName("TC02")
+    @DisplayName("TC02-one task before start")
     void incoming2(){
         tasksArray.add(t01);
         tasksList = FXCollections.observableArrayList(tasksArray.getAll());
@@ -78,7 +78,7 @@ import static org.junit.jupiter.api.Assertions.fail;
 
     @Test
     @Order(3)
-    @DisplayName("TC03")
+    @DisplayName("TC03-tasks between start end")
     void incoming3(){
         tasksArray.add(t01);
         tasksArray.add(t02);
@@ -91,7 +91,7 @@ import static org.junit.jupiter.api.Assertions.fail;
         //incomingList.forEach(System.out::println);
     }
     @Test
-    @DisplayName("TC04")
+    @DisplayName("TC04-one before and one after end")
     void incoming4(){
         tasksArray.add(t04);
         tasksArray.add(t05);
@@ -103,7 +103,7 @@ import static org.junit.jupiter.api.Assertions.fail;
 
     }
     @Test
-    @DisplayName("TC05")
+    @DisplayName("TC05- all tasks test; before and equal")
     void incoming5(){
         tasksArray.add(t02);
         tasksArray.add(t01);

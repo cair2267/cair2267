@@ -7,6 +7,7 @@ import tasks.model.Task;
 import tasks.model.TasksOperations;
 
 import java.util.Date;
+import java.util.List;
 
 public class TasksService {
 
@@ -57,5 +58,17 @@ public class TasksService {
     public void addTask(String title,Date start, Date end, int interval){
         Task t = new Task(title,start,end,interval);
         tasks.add(t);
+    }
+
+    public void addTask(Task t){
+        tasks.add(t);
+    }
+
+    public int size(){
+        return tasks.size();
+    }
+
+    public List<Task> getAllTasks(){
+        return tasks.getAll();
     }
 }

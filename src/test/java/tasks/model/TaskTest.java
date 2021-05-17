@@ -8,8 +8,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.fail;
+import static org.junit.jupiter.api.Assertions.*;
 
 /*@author: Andrei Chiritoiu*/class TaskTest {
 
@@ -28,11 +27,17 @@ import static org.junit.jupiter.api.Assertions.fail;
             fail(e.getMessage());
         }
         task = new Task("seminar", start, end, 1);
+        task.setActive(true);
     }
 
     @Test
     @Order(1)
     void getTitle() {
         assertEquals("seminar", task.getTitle(), "Task title name should be \'seminar\'");
+    }
+
+    @Test
+    void isActive(){
+        assertTrue(task.isActive());
     }
 }
